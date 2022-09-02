@@ -1,0 +1,36 @@
+[package]
+name = "rust_book"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+
+
+# Rust book binaries
+[[bin]]
+name = "variables_n_mutability"
+path = "src/variables_n_mutability.rs"
+
+[[bin]]
+name = "generics"
+path = "src/generics.rs"
+
+
+# Euler project binaries
+[[bin]]
+name = "euler_1"
+path = "src/project_euler/euler_1.rs"
+
+[[bin]]
+name = "euler_2"
+path = "src/project_euler/euler_2.rs"
+
+[[bin]]
+name = "euler_3"
+path = "src/project_euler/euler_3.rs"
+
+
+
